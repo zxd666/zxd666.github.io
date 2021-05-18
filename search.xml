@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>输入输出流</title>
+    <url>/2021/05/18/InputstreamANDoutputstream/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="Inputstream和outputstream"><a href="#Inputstream和outputstream" class="headerlink" title="Inputstream和outputstream"></a>Inputstream和outputstream</h2><ul>
+<li><p>我们所说的流，都是针对内存说的，比如为什么打印到屏幕上就是System.out.println();而从屏幕等待用户输入的却是System.in呢？因为对于内存来说，把字符串打印到屏幕上是从内存流向屏幕这个显示器的，也就是输出，而从屏幕等待用户输入呢？就是等待键盘将字符输入到内存中。</p>
+</li>
+<li><p>所以，你根本就不用死记硬背，当你遇到IO的时候，就想两件事，第一，我的内存是中心，第二看看流的方向（矢量）！</p>
+</li>
+</ul>
+<ul>
+<li>好吧，那么往硬盘上写文件是out还是in呢？别一看到“写”文件你就说in，那是望文生义，你看，写文件的流向，是 内存———-&gt;硬盘 内存为中心，到硬盘，OK 用out 那么就是FileOutputStream、BufferedOutputStream 等等，那读文件呢？是 内存&lt;—————硬盘 那么就是in了 ， 看清楚数据的流向就OK！</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/04/27/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>诗</title>
+    <url>/2021/04/28/shici/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="小重山·昨夜寒蛩不住鸣"><a href="#小重山·昨夜寒蛩不住鸣" class="headerlink" title="小重山·昨夜寒蛩不住鸣"></a><strong>小重山·昨夜寒蛩不住鸣</strong></h2><p>昨夜寒蛩不住鸣。惊回千里梦，已三更。起来独自绕阶行。人悄悄，帘外月胧明。<br>白首为功名。旧山松竹老，阻归程。欲将心事付瑶琴知音少，弦断有谁听。</p>
+]]></content>
+      <tags>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>尝试吧</title>
+    <url>/2021/04/27/try/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h2><h3 id="第一次"><a href="#第一次" class="headerlink" title="第一次"></a>第一次</h3><p>  <strong>昨天</strong>去图书馆，人太**多了,走了</p>
+<h2 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h2><p>  <strong>今天</strong>又去，人还是多，我放弃了，去了实验室</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>集群，分布式，微服务</title>
+    <url>/2021/05/18/%E9%9B%86%E7%BE%A4%EF%BC%8C%E5%88%86%E5%B8%83%E5%BC%8F%EF%BC%8C%E5%BE%AE%E6%9C%8D%E5%8A%A1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="单机结构"><a href="#单机结构" class="headerlink" title="单机结构"></a><strong>单机结构</strong></h2><ul>
+<li><p>我想大家最最最熟悉的就是单机结构，一个系统业务量很小的时候所有的代码都放在一个项目中就好了，然后这个项目部署在一台服务器上就好了。整个项目所有的服务都由这台服务器提供。这就是单机结构。</p>
+</li>
+<li><p>那么，单机结构有啥缺点呢？我想缺点是显而易见的，单机的处理能力毕竟是有限的，当你的业务增长到一定程度的时候，单机的硬件资源将无法满足你的业务需求。此时便出现了集群模式，往下接着看。</p>
+</li>
+</ul>
+<h2 id="集群结构"><a href="#集群结构" class="headerlink" title="集群结构"></a><strong>集群结构</strong></h2><ul>
+<li><p>集群模式在程序猿界有各种装逼解释，有的让你根本无法理解，其实就是一个很简单的玩意儿，且听我一一道来。</p>
+</li>
+<li><p>单机处理到达瓶颈的时候，你就把单机复制几份，这样就构成了一个“集群”。<strong>集群中每台服务器就叫做这个集群的一个“节点”</strong>，<strong>所有节点构成了一个集群</strong>。每个节点都提供相同的服务，那么这样系统的处理能力就相当于提升了好几倍（有几个节点就相当于提升了这么多倍）。</p>
+</li>
+<li><p>但问题是用户的请求究竟由哪个节点来处理呢？最好能够让此时此刻负载较小的节点来处理，这样使得每个节点的压力都比较平均。要实现这个功能，就需要在所有节点之前增加一个“调度者”的角色，用户的所有请求都先交给它，然后它根据当前所有节点的负载情况，决定将这个请求交给哪个节点处理。这个“调度者”有个牛逼了名字——<strong>负载均衡服务器</strong>。</p>
+</li>
+<li><p>集群结构的好处就是系统扩展非常容易。如果随着你们系统业务的发展，当前的系统又支撑不住了，那么给这个集群再增加节点就行了。但是，当你的业务发展到一定程度的时候，你会发现一个问题——无论怎么增加节点，貌似整个集群性能的提升效果并不明显了。这时候，你就需要使用微服务结构了。</p>
+</li>
+</ul>
+<h2 id="分布式结构"><a href="#分布式结构" class="headerlink" title="分布式结构"></a><strong>分布式结构</strong></h2><p>先来对前面的知识点做个总结。</p>
+<ul>
+<li>从单机结构到集群结构，你的代码基本无需要作任何修改，你要做的仅仅是多部署几台服务器，每台服务器上运行相同的代码就行了。但是，当你要从集群结构演进到微服务结构的时候，之前的那套代码就需要发生较大的改动了。所以对于新系统我们建议，系统设计之初就采用<strong>微服务架构</strong>，这样后期运维的成本更低。但如果一套老系统需要升级成微服务结构的话，那就得对代码大动干戈了。所以，对于老系统而言，究竟是继续保持集群模式，还是升级成微服务架构，这需要你们的架构师深思熟虑、权衡投入产出比。</li>
+</ul>
+<p>OK，下面开始介绍所谓的分布式结构。</p>
+<ul>
+<li><p>分布式结构就是将一个完整的系统，按照业务功能，拆分成一个个独立的子系统，在分布式结构中，每个子系统就被称为“服务”。这些子系统能够独立运行在web容器中，它们之间通过RPC方式通信。</p>
+</li>
+<li><p>举个例子，假设需要开发一个在线商城。按照微服务的思想，我们需要按照功能模块拆分成多个独立的服务，如：用户服务、产品服务、订单服务、后台管理服务、数据分析服务等等。这一个个服务都是一个个独立的项目，可以独立运行。如果服务之间有依赖关系，那么通过RPC方式调用。</p>
+</li>
+</ul>
+<p>这样的好处有很多：</p>
+<ol>
+<li><p>系统之间的耦合度大大降低，可以独立开发、独立部署、独立测试，系统与系统之间的边界非常明确，排错也变得相当容易，开发效率大大提升。</p>
+</li>
+<li><p>系统之间的耦合度降低，从而系统更易于扩展。我们可以针对性地扩展某些服务。假设这个商城要搞一次大促，下单量可能会大大提升，因此我们可以针对性地提升订单系统、产品系统的节点数量，而对于后台管理系统、数据分析系统而言，节点数量维持原有水平即可。</p>
+</li>
+<li><p>服务的复用性更高。比如，当我们将用户系统作为单独的服务后，该公司所有的产品都可以使用该系统作为用户系统，无需重复开发。</p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+</search>
